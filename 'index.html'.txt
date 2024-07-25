@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachable Machine Webpage</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Teachable Machine Webpage</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <div id="result">Loading model...</div>
+</body>
+</html>
